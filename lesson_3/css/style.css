@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+*{
+   color: #d48d8d;
+}
+
+.header h1{
+   color: #23ca3a;
+}
+
+div h3{
+   color: #59f3eb;
+}
+
+.page{}
+
+.page__miracles{}
+
+.miracles{}
+
+.miracles_list{}
+
+.miracle{}
+
+.miracle-1 p,
+.miracle-2 p,
+.miracle-3 p{
+   color: #ac790b;
+}
+
+.miracle.miracle-4{
+   color: #19b3c7;
+}
+
+.miracle-5 *{
+   color: #9f1db9;
+}
+
+.miracle-6{}
+
+.miracle-7{}
+
+.footer > p{
+   color: #c8ff00;
+}
+
+.next + p{
+   color: #ff47f6;
+}
+
+#avtor{
+   color: #58008f;
+}
+
+[class*="test"]{
+   color: #2e4b57;
+}
+
+.red-span ~ p{
+   color: #b40000;
+}
