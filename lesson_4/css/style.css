@@ -1,0 +1,184 @@
+/* -------Google Fonts-------- */
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,900,300italic,700italic&display=swap");
+/* Madimi One */
+@import url('https://fonts.googleapis.com/css?family=Madimi+One:regular&display=swap');
+/* -------------------------------------------------------------------------------------------------- */
+/* Обнулення */
+@import url("reset.css");
+/* -------------------------------------------------------------------------------------------------- */
+/* Для заголовків */
+@font-face {
+   font-family: 'Laisha';
+   src:url('Laisha.woff') format('woff'),
+      url('../fonts/Laisha.woff2') format('woff2'),
+      url('../fonts/Laisha.eot'),
+      url('../fonts/Laisha.eot') format('embedded-opentype'),
+      url('../fonts/Laisha.otf') format('truetype');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+/* -------------------------------------------------------------------------------------------------- */
+@font-face {
+   font-family: 'MadimiOne-Regular';
+   src:url('../fonts/MadimiOne-Regular.woff') format('woff'),
+      url('../fonts/MadimiOne-Regular.woff2') format('woff2'),
+      url('../fonts/MadimiOne-Regular.svg#MadimiOne-Regular') format('svg'),
+      url('../fonts/MadimiOne-Regular.eot'),
+      url('../fonts/MadimiOne-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MadimiOne-Regular.ttf') format('truetype');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+/* -------------------------------------------------------------------------------------------------- */
+@font-face {
+   font-family: 'proximanova_regular';
+   src:url('../fonts/proximanova_regular.woff') format('woff'),
+      url('../fonts/proximanova_regular.woff2') format('woff2'),
+      url('../fonts/proximanova_regular.svg#proximanova_regular') format('svg'),
+      url('../fonts/proximanova_regular.eot'),
+      url('../fonts/proximanova_regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/proximanova_regular.ttf') format('truetype');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'proximanova_bold';
+   src:url('../fonts/proximanova_bold.woff') format('woff'),
+      url('../fonts/proximanova_bold.woff2') format('woff2'),
+      url('../fonts/proximanova_bold.eot'),
+      url('../fonts/proximanova_bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/proximanova_bold.otf') format('truetype');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+/* -------------------------------------------------------------------------------------------------- */
+body{
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+}
+
+p{
+   line-height: 1.5;
+}
+
+h1{
+   font-size: 36px;
+   font-weight: 900;
+   line-height: 150%;
+   letter-spacing: 2px;
+   word-spacing: 8px;
+}
+
+.braille h2,
+.braille h3,
+.braille h4,
+.braille h5,
+.braille h6{
+   font-family: "Laisha", monospace  ;
+   line-height: 200%;
+}
+
+.braille h2{
+   font-size: 40px;
+}
+
+.braille h3{
+   font-size: 28px;
+   text-align: center;
+   text-shadow: 0px 0px 20px #ffdb0e; 
+}
+
+.braille > p{
+   color: #a31414;
+   text-transform: uppercase;
+   text-decoration: overline;
+   text-decoration-color: #006151;
+}
+
+#louis-braille{
+   font-style: oblique;
+   text-decoration: line-through;
+   text-decoration-style: wavy;
+   text-decoration-color: #c70000;
+}
+
+#louis-braille ~ h3{
+   text-decoration: underline;
+   text-decoration-style: double;
+   text-decoration-color: #c70000;
+}
+.italic{
+   font-style: italic;
+   font-weight: 700;
+}
+
+.one + p{
+   text-decoration: underline;
+   text-decoration-style: dashed;
+   white-space: nowrap;
+}
+
+[class*="test"]{
+   color: #000291;
+   text-decoration: underline;
+   text-decoration-style: dotted;
+}
+
+.test-2{
+   text-transform: lowercase;
+   text-align: right;
+}
+.test-3{
+   text-transform: capitalize;
+   text-align: justify;
+}
+
+.font-3{
+   font-family: 'MadimiOne-Regular', cursive ;
+}
+
+/* ===================================================================== */
+/* Krovato */
+/* ===================================================================== */
+/* Pading and margin не брав, бо тут ще не вчили*/
+
+.header.krovato{
+   font-family: 'proximanova_bold';
+   color: #2b2929;
+   font-size: 40px;
+   font-style: normal;
+   line-height: 120%; /* 48/40 */
+}
+.blogArticle{
+   font-family: 'proximanova_regular';
+}
+
+
+.blogArticle p{
+   color: #2b2929;
+   font-size: 16px;
+   line-height: 187.5%; /* 30/16 */
+}
+
+.blogArticle__options h2{
+   font-family: 'proximanova_bold';
+   color: #2b2929;
+   font-size: 20px;
+   line-height: 140%; /* 28/20 */
+}
+
+.blogArticle__options p{
+   color: #2b2929;
+   font-size: 16px;
+   line-height: 187.5%; /* 30/16 */
+}
