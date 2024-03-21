@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500,900&display=swap');
+@font-face {
+   font-family: 'proximanova';
+   src:url('../fonts/proximanova_regular.woff') format('woff'),
+      url('../fonts/proximanova_regular.woff2') format('woff2');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'proximanova';
+   src:url('../fonts/proximanova_bold.woff') format('woff'),
+      url('../fonts/proximanova_bold.woff2') format('woff2');
+
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+html,
+body{
+   font-family: 'Roboto', sans-serif;
+   background-color: #F8F8F8;
+}
+
+[class*="__container2"]{
+   max-width: 1350px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.header{
+   background-color: #f1f1f1;
+}
+
+.header__container2{
+   text-align: center;
+}
+
+.header__container2 h1{
+   font-size: 24px;
+}
+
+/* ================= */
+
+.ecommerece{
+   padding: 100px 70px;
+}
+
+.ecommerece__container2{
+   text-align: center;
+}
+
+.ecommerece__container2 h3{
+   font-weight: 500;
+   font-size: 50px;
+   color: #000;
+   margin-bottom: 52px;
+}
+
+.ecommerece__items{
+   margin: 0 -12px;
+}
+
+.ecommerece__item{
+   display: inline-block;
+   padding: 0 10px;
+}
+
+/* ================================== */
+
+[class*="__container3"]{
+   max-width: 1100px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.blogArticle{
+   font-family: 'proximanova', sans-serif;
+   font-size: 16px;
+   line-height: 187.5%; /* 30/16 */
+   font-weight: 400;
+}
+
+.blogArticle__container3 h2{
+   font-size: 40px;
+   line-height: 120%; /* 48/40 */
+   margin-bottom: 40px;
+   font-weight: 700;
+}
+
+.blogArticle__box {
+   margin-bottom: 40px;
+}
+
+.blogArticle__box + p{
+   margin-bottom: 40px;
+}
+
+.blogArticle__listFurniture{
+   margin-bottom: 40px;
+}
+
+.blogArticle__listFurniture h3{
+   font-size: 20px;
+   line-height: 140%; /* 28/20 */
+   margin-bottom: 30px;
+   font-weight: 700;
+}
+
+.blogArticle__listFurniture li{
+   display: inline-block;
+   margin-bottom: 20px;
+   margin-left: 15px;
+}
+
+/* ============================ */
+
+[class*="__container4"]{
+   max-width: 1320px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.krovatoInfo{
+   text-align: center;
+   padding: 70px 0;
+}
+
+.krovatoInfo__container4 h3{
+   font-size: 40px;
+   line-height: 120%; /* 48/40 */
+   margin-bottom: 40px;
+}
+
+.krovatoInfo__items{
+   margin: 0 -15px;
+}
+
+
+.item-krovatoInfo{
+   padding: 0 15px;
+   text-align: center;
+   vertical-align: top;
+   display: inline-block;
+   max-width: 24%;
+}
+
+.item-krovatoInfo h4{
+   font-size: 26px;
+   line-height: 130.769231%; /* 34/26 */
+   margin-bottom: 20px;
+}
+
+.item-krovatoInfo__box {
+   display: inline-block;
+}
+
+/* =========== */
+
+.footer{
+   font-size: 12px;
+   padding: 20px 0;
+}
