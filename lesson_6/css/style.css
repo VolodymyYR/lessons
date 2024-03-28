@@ -1,0 +1,369 @@
+@import url('reset.css');
+@font-face {
+   font-family: 'Proxima Nova';
+   src:url('../font/ProximaNova-Semibold.woff') format('woff'),
+      url('../font/ProximaNova-Semibold.woff2') format('woff2');
+
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Proxima Nova';
+   src:url('../font/ProximaNova-Regular.woff') format('woff'),
+      url('../font/ProximaNova-Regular.woff2') format('woff2');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* ================================ */
+
+@font-face {
+   font-family: 'Quicksand';
+   src:url('../font/Quicksand-Bold.woff') format('woff'),
+      url('../font/Quicksand-Bold.woff2') format('woff2');
+
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Quicksand';
+   src:url('../font/Quicksand-Medium.woff') format('woff'),
+      url('../font/Quicksand-Medium.woff2') format('woff2');
+
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* ============================================= */
+
+@font-face {
+   font-family: 'Roboto';
+   src:url('../font/Roboto-Light.woff') format('woff'),
+      url('../font/Roboto-Light.woff2') format('woff2');
+
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src:url('../font/Roboto-Regular.woff') format('woff'),
+      url('../font/Roboto-Regular.woff2') format('woff2');
+
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+
+/*
+.block 
+.inline
+.inline-block
+
+border
+Основні стили - solid dotted dashed double
+
+border-inline - задає межу зліва та справа
+border-block - задає межу зверху та знизу
+
+outline
+outline-offset - відстань від об'єкта до обводки
+
+border-radius
+
+box-shadow
+inset - тінь в середені об'єкту
+
+opacity
+
+visibility
+Керує відображенням елемента
+visible - (за замовченням) відображає об'єкт
+hidden - ховає об'єкт (з об'єктом не можна взаємодіяти)
+
+background
+background-image
+background-repeat
+background-position
+fixed
+background-size
+cover
+contain
+
+background: green url("../img/honey.jpg") 0 0 / auto no-repeat scroll;
+*/
+
+body{
+   font-family: 'Proxima Nova', sans-serif;
+   color: #2b2929;
+   font-size: 16px;
+   line-height: 1.875; /* 30/16 */
+}
+
+[class*="__container"]{
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+[class*="__2container"]{
+   max-width: 1310px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header{
+   padding: 40px 0;
+}
+
+.header h1{
+   font-size: 40px;
+   line-height: 1.2; /* 48/40 */
+}
+
+.page{} 
+
+.krovato{
+   padding-bottom: 40px;
+}
+
+.krovato__container h2{
+   font-size: 20px;
+   line-height: 1.4; /* 28/20 */
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+.krovato__container > p{
+   margin-bottom: 40px;
+}
+
+.krovato__imgBox{
+   border-radius: 8px;
+   margin-bottom: 40px;
+}
+
+.krovato__imgBox img{
+   border-radius: 8px;
+   /* max-width: 100%; */
+}
+
+.krovato__list li{
+   margin-bottom: 20px;
+   padding-left: 47px;
+   background: url('../img/circle-check-mark.svg') 0 0 / auto no-repeat scroll;
+   min-height: 32px;
+}
+
+.krovato__list{
+   margin-bottom: 40px;
+}
+
+.krovato__buttons {
+}
+
+.krovato__buttons a{
+   padding: 13px 51px;
+   border-radius: 8px;
+   background-color: #ffbc57;
+}
+
+.krovato__buttons a span{
+   color: #fff;
+}
+
+.krovato__buttons a.left span{
+   background: url('../img/arrow.svg') 0 50% / auto no-repeat;
+   padding-left: 39px;
+}
+
+.krovato__buttons a.right span{
+   background-image: url('../img/arrow-rigth.svg');
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position: 100% 50%;
+   padding-right: 39px;
+}
+
+/* Там є невеличкий фантомний відступ, гадаю display: block +display: flex для батька помогли позбутися, але ми цього не вчили */
+
+.krovato__buttons a + a{
+   margin-left: 50px;
+}
+
+/* =================================================== */
+
+.eduPlay{
+   background-color: #914cff;
+   min-height: 530px;
+}
+
+.eduPlay__2container{
+   background: url('../img/bg.png') 14% 34% / cover no-repeat ;
+}
+
+.eduPlay__body{
+   padding: 121px 0;
+   display: inline-block;
+   vertical-align: middle;
+   font-family: "Quicksand", sans-serif;
+   width: 45%;
+   margin-right: 25px;
+   color: #fff;
+}
+
+.eduPlay__photo{
+   text-align: center;
+   width: 52%;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.eduPlay__body a{
+   padding: 12px 20px;
+   border-radius: 8px;
+   background-color: #fff;
+
+   font-weight: 700;
+   color: #0d1216;
+   font-size: 16px;
+   line-height: 1.56; /* 25/16 */
+}
+
+.eduPlay__info{
+   display: inline-block;
+}
+
+.eduPlay__info h2{
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom: 24px;
+   line-height: 1.2; /* 48/40 */
+}
+
+.eduPlay__info p{
+   font-weight: 500;
+   margin-bottom: 24px;
+   font-size: 20px;
+   line-height: 1.6; /* 32/20 */
+}
+
+/* ================================================= */
+
+.minimal{
+   padding: 60px 0;
+   font-family: 'Roboto';
+   background: url('../img/flower-1.png') 0 90% / auto no-repeat, url('../img/flower-2.png') 100% 55% / auto no-repeat;
+   background-color: rgba(30, 40, 50, 0.05)
+}
+
+.minimal__3container{
+   max-width: 1350px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.minimal__body{
+   display: inline-block;
+   vertical-align: middle;
+   max-width: 52%;
+   color: #000;
+   margin-right: 98px;
+}
+
+.minimal__body h2{
+   font-size: 74px;
+   font-weight: 300;
+   margin-bottom: 52px;
+}
+
+.minimal__body a{
+   background-color: #1e2832;
+   padding: 19px 26px;
+}
+
+.minimal__body a span {
+   background: url('../img/icon-bag.png') 0 50% / auto no-repeat;
+   padding-left: 29px;
+   font-size: 29px;
+   font-weight: 400;
+   color: #fff;
+   line-height: 1;
+}
+
+.minimal__body p{
+   text-transform: capitalize;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 1.66; /* 55/33 */
+   margin-bottom: 66px;
+}
+
+.minimal__imgBox{
+   border-radius: 37% 0 37% 0;
+   display: inline-block;
+   vertical-align: middle;
+   border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.minimal__imgBox img{
+   width: 100%;
+   border-radius: 37% 0 37% 0;
+   margin-top: -20px;
+   margin-bottom: 20px;
+   margin-left: -18px;
+   margin-right: 18px;
+}
+
+/* ================================================== */
+
+.practi{}
+
+.header-practice{
+   padding: 30px 0;
+   background-color: rgba(13, 18, 22, 0.2);
+}
+
+.header-practice__container{
+   outline: 4px dotted #3d2603;
+   outline-offset: 5px;
+   text-align: center;
+}
+
+.header-practice__container h2{ 
+   font-size: 32px;
+   outline: 2px solid #000;
+}
+
+.practic__wallpaper{
+   height: 800px;
+   background: url('../img/dark.jpg') 0 0 / cover no-repeat;
+   background-attachment: fixed;
+} 
+
+.practic__wallpaper p{
+   visibility: hidden;
+}
+
+.practic__line 
+
+
+/* ================================================= */
+
+.footer{
+   padding: 10px 0;
+}
+
+.footer__container{
+   text-align: center;
+   font-size: 10px;
+}
