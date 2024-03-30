@@ -1,0 +1,532 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900&display=swap');
+
+@font-face {
+   font-family: 'Proxima Nova';
+   src:url('../fonts/ProximaNova-Regular.woff') format('woff'),
+      url('../fonts/ProximaNova-Semibold.woff2') format('woff2');
+
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Proxima Nova';
+   src:url('../fonts/ProximaNova-Regular.woff') format('woff'),
+      url('../fonts/ProximaNova-Regular.woff2') format('woff2');
+
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+body{
+   font-family: 'Exo', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+[class*="__container"]{
+   max-width: 1302px;
+   padding: 15px 0;
+   margin: 0 auto;
+}
+
+/* =========================================================== */
+
+.header{
+   padding: 35px 0;
+   background-color: #dadada;
+}
+
+.header__container{
+   text-align: center;
+}
+
+.header__container h1{
+   font-weight: 700;
+   font-size: 32px;
+   color: rgba(0, 0, 0, 0.4);
+}
+
+/* =========================================================== */
+
+.portfolio{
+   padding: 120px;
+   background: url('../img/wallpaper.jpg') 0 0 / cover no-repeat;
+}
+
+.portfolio__container{
+   text-align: center;
+   color: #fff;
+}
+
+.portfolio__container *:last-child{
+   margin-bottom: 0;
+}
+
+.portfolio__body{
+   display: inline-block;
+   max-width: 69%;
+   margin-bottom: 60px;
+}
+.portfolio__body *:not(:last-child){
+   margin-bottom: 15px;
+}
+
+/* .portfolio__body:last-child{
+   margin-bottom: 0;
+} */
+
+.portfolio__body h2{
+   display: inline-block;
+   font-size: 60px;
+   line-height: 1.16; /* 70/60 */
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.portfolio__body h2:last-child{
+   margin-bottom: 0;
+}
+
+.portfolio__body h2::after{
+   content: "";
+   display: block;
+   /* margin-top: 20px; */
+   margin: 20px -16.6% 0; /* 50/300 */
+   height: 1px;
+   width: 130.4%;
+   bottom: 0;
+   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);
+}
+
+.portfolio__body p{
+   line-height: 2.22; /* 40/18 */
+   letter-spacing: -1px;
+}
+
+.portfolio .list{
+   display: inline-block;
+   text-align: center;
+}
+
+.portfolio .list li{
+   display: inline-block;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.25; /* 25/20 */
+}
+
+.portfolio .list li:not(:last-child){
+   margin-right: 60px;
+}
+
+.portfolio .list li::after{
+   content: "";
+   height: 10px;
+   width: 10px;
+   background: url('../img/ellipse.svg') 0 0 / auto no-repeat;
+   margin-left: 60px;
+   border-radius: 50%;
+}
+
+/* =========================================================== */
+
+.line{
+   padding: 20px 0;
+   background-color: #dadada;
+   text-align: center;
+}
+
+.line h2{
+   text-transform: uppercase;
+   font-size: 24px;
+}
+
+/* =========================================================== */
+
+.connection{
+   background-color: #000001;
+   padding: 90px 0;
+   color: #fff;
+}
+
+.connection__container{
+   text-align: center;
+}
+
+.connection__list li{
+   display: inline-block;
+}
+
+.connection__list li:not(:last-child){
+   margin-right: 80px;
+}
+
+.connection__list li a::before{
+   content: "";
+   height: 20px;
+   width: 20px;
+   vertical-align: middle;
+
+   margin-right: 20px;
+}
+
+.connection__list li a:visited{
+   color: #c674ff;
+}
+
+.connection__list li a:active{
+   color: #ffbc57;
+}
+
+.connection__list li a:focus-visible{
+   outline: 6px solid #c674ff;
+   outline-offset: 8px;
+}
+
+.connection__list li:hover a{
+   text-decoration: underline;
+}
+
+.connection__list li:nth-child(1) a::before{
+   background: url('../img/call.svg') 0 0 / auto no-repeat;;
+}
+
+.connection__list li:nth-child(2) a::before{
+   background: url('../img/marker.svg') 0 0 / auto no-repeat; 
+}
+
+.connection__list li:nth-child(3) a::before{
+   background: url('../img/envelope.svg') 0 0 / auto no-repeat;
+}
+
+/* =========================================================== */
+
+[class*="__2container"]{
+   max-width: 1100px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.krovato{
+   padding: 60px 0;
+   font-family: 'Proxima Nova', sans-serif;
+   font-size: 16px;
+   color: #2b2929;
+}
+
+.krovato{}
+
+.krovato__2container > *:not(:last-child){
+   margin-bottom: 40px;
+}
+
+.krovato__2container h2{
+   font-size: 40px;
+   line-height: 1.2; /* 48/40 */
+   font-weight: 600;
+}
+
+
+.krovato__2container p{
+   line-height: 1.8; /* 30/16 */
+}
+
+.krovato__2container h3{
+   font-size: 20px;
+   line-height: 1.4; /* 28/20 */
+}
+
+.krovatp__imgBox{
+   border-radius: 8px;
+}
+
+.krovatp__imgBox img{
+   border-radius: 8px;
+   width: 100%;
+}
+
+.krovato .list{}
+
+.krovato .list li{
+   background: url('../img/circle-check-mark.svg') 0 0 / auto no-repeat;
+   padding-left: 47px;
+   min-height: 32px;
+}
+
+.krovato .list li:not(:last-child){
+   margin-bottom: 20px;
+}
+
+.krovato__buttons{
+}
+
+.krovato__buttons a{
+   padding: 8px 20px;
+   border-radius: 8px;
+   background-color: #ffbc57;
+
+   color: #fff;
+   font-size: 19px;
+   line-height: 1.26;
+}
+
+.krovato__buttons a:hover{
+   background-color: #dab072;
+}
+
+.krovato__buttons a:active{
+   background-color: #d69c44;
+}
+
+.krovato__buttons a:focus{
+   outline: 4px solid #d69c44;
+   outline-offset: 7px;
+}
+
+.krovato__buttons a:nth-child(1){
+   margin-right: 55%;
+}
+
+.krovato__buttons a:nth-child(1)::before{
+   content: "";
+   height: 24px;
+   width: 24px;
+   background: url('../img/arrow-left.svg') 50% 50% / auto no-repeat;
+   vertical-align: middle;
+   margin-right: 15px;
+}
+
+.krovato__buttons a:nth-child(2)::after{
+   content: "";
+   height: 24px;
+   width: 24px;
+   background: url('../img/arrow-rigth.svg') 50% 50% / auto no-repeat;
+   vertical-align: middle;
+   margin-left: 15px;
+}
+
+/* =========================================================== */
+
+.game{
+   background: url('../img/pacman.jpg') 0 0 / cover no-repeat;
+   padding: 13% 0; /* 350/1920 */
+}
+
+.game__2container{}
+
+.game__play{
+   background-color: #000001;
+   border: 10px #fa9600 solid;
+   word-spacing: -5px;
+   height: 600px;
+   width: 100%;
+   line-height: 0;;
+}
+
+.game__play div:not(:first-child){
+   visibility: hidden;
+}
+
+.game__play div:not(:last-child){
+   background-color: #ff0000;
+   display: inline-block;
+}
+
+/* В мене виникла проблема. Чому при наведенні на пятий дочірній елемент я не можу змінювати значення 2 дочірнього елемента (Як приклад) */
+/* 
+
+.box10:hover  .box6,
+.game__play  .box6:hover{
+   visibility: visible;
+}
+
+*/
+
+.box1{
+   display: inline-block;
+   width: 50px;
+   height: 150px;
+   margin-left: 6.36%;
+   margin-bottom: 50px;
+}
+
+.box1:hover + .box2,
+.game__play .box2:hover{
+   visibility: visible;
+}
+
+.box2{
+   width: 250px;
+   height: 50px;
+   margin-bottom: 50px;
+}
+
+.box2:hover + .box3,
+.game__play .box3:hover{
+   visibility: visible;
+}
+
+.box3{
+   width: 50px;
+   height: 100px;
+   margin-bottom: 50px;
+
+   border-radius: 75px 0 75px 0;
+}
+
+.box3:hover + .box4,
+.game__play  .box4:hover{
+   visibility: visible;
+}
+
+.box4{
+   width: 100px;
+   height: 50px;
+   margin-bottom: 100px;
+}
+
+.box4:hover + .box5,
+.game__play  .box5:hover{
+   visibility: visible;
+}
+
+.box5{
+   width: 50px;
+   height: 150px;
+
+   border-radius: 0 75px 0 0;
+}
+
+.box5:hover + .box6,
+.game__play  .box6:hover{
+   visibility: visible;
+}
+
+.box6{
+   width: 950px;
+   height: 50px;
+   margin-left: 67px;
+   
+   border-radius: 0 75px 0 0;
+}
+
+.box6:hover ~ .box7,
+.game__play  .box7:hover,
+.box6:hover ~ .box8,
+.game__play  .box8:hover,
+.box6:hover ~ .box10,
+.game__play  .box10:hover,
+.box6:hover ~ .box12,
+.game__play  .box12:hover{
+   visibility: visible;
+}
+
+.box7{
+   width: 50px;
+   height: 193px;
+   margin-left: 67px;
+   margin-top: -160px;
+}
+
+.box7:hover ~ .box13,
+.game__play  .box13:hover{
+   visibility: visible;
+}
+
+.box8{
+   width: 50px;
+   height: 193px;
+   margin-left: 67px;
+   margin-top: -160px;
+}
+
+.box8:hover + .box9,
+.game__play .box9:hover{
+   visibility: visible;
+}
+
+.box9:hover + .box10,
+.game__play  .box10:hover{
+   visibility: visible;
+}
+
+.box9{
+   width: 383px;
+   height: 50px;
+   margin-left: -50px;
+   margin-top: -160px;
+}
+
+.box10:hover + .box11,
+.game__play  .box11:hover{
+   visibility: visible;
+}
+
+.box10{
+   width: 50px;
+   height: 193px;
+   margin-top: -357px;
+}
+
+.box11{
+   width: 350px;
+   height: 50px;
+}
+
+.box11:hover + .box12,
+.game__play  .box12:hover{
+   visibility: visible;
+}
+
+
+.box12{
+   width: 50px;
+   height: 193px;
+   border-radius: 0 0 75px 0;
+}
+
+.box13{
+   display: block;
+   width: 50px;
+   height: 80px;
+   margin-left: 67px;
+   margin-top: -4px;
+}
+
+.box13:hover + .box14,
+.game__play  .box14:hover{
+   visibility: visible;
+}
+
+.box14{
+   display: block;
+   width: 50px;
+   height: 30px;
+   background-color: rgb(0, 255, 13);
+   margin-left: 67px;
+
+   font-size: 20px;
+}
+
+.box14:hover{
+   background-color: #ffa51f;
+}
+
+
+/* =========================================================== */
+
+.footer{
+   padding: 5px 0;
+   background-color: #dadada;
+   text-align: center;
+}
+
+.footer h2{
+   text-transform: uppercase;
+   font-size: 16px;
+}
