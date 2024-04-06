@@ -1,0 +1,39 @@
+@font-face {
+   font-family: 'LT Superior';
+   src:url('../fonts/LT_superior/LTSuperior-Regular.woff') format('woff'),
+      url('../fonts/LT_superior/LTSuperior-Regular.woff2') format('woff2');
+
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'LT Superior';
+   src:url('../fonts/LT_superior/LTSuperior-Medium.woff') format('woff'),
+      url('../fonts/LT_superior/LTSuperior-Medium.woff2') format('woff2');
+
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'LT Superior';
+   src:url('../fonts/LT_superior/LTSuperior-Semibold.woff') format('woff'),
+      url('../fonts/LT_superior/LTSuperior-Semibold.woff2') format('woff2');
+
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'LT Superior';
+   src:url('../fonts/LT_superior/LTSuperior-Bold.woff') format('woff'),
+      url('../fonts//LT_superior/LTSuperior-Bold.woff2') format('woff2');
+
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
