@@ -1,0 +1,89 @@
+@import url('reset.css');
+@import url('lt-superior.css');
+
+body{
+   font-family: 'LT Superior';
+   font-weight: 400;
+   background-color: #141414;
+   color: #fff;
+   font-size: 24px;
+}
+
+[class*="__container"]{
+   max-width: 1230px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.header{
+   padding: 20px 0;
+   background-color: #ececec;
+}
+
+.header__container{}
+
+.header__container h1{
+   font-size: 32px;
+   color: #141414;
+}
+
+
+/* =================== */
+
+.page__home-work{}
+
+.home-work{
+   padding: 120px 0;
+}
+
+.hone-work__container{}
+
+.home-work__box-image{
+   background: rgba(255, 255, 255, 0.5);
+   padding: 40px;
+   border-radius: 40px;
+   box-shadow: #ffb923 0 0 40px 5px;
+   border: #ffb923 2px solid;
+}
+
+.box-image__list li{
+   background-color: rgba(20, 20, 20, 0.75);
+   padding: 15px;
+   border-radius: 30px;
+   margin-bottom: 60px;
+}
+.box-image__list img{
+   max-width: 49%;
+   vertical-align: middle;
+}
+.box-Image__list img:not(:last-child){
+   vertical-align: middle;
+   margin: 0 30px 0 0;
+}
+
+.box-image__list li picture{
+   width: 49%;
+   vertical-align: middle;
+   display: inline-block;
+}
+
+.box-image__list li picture img{
+   max-width: 100%;
+}
+
+.box-image__list li picture source{ 
+   display: inline-block;
+}
+
+.box-image__list li picture:not(:last-child){
+   margin-bottom: 20px;
+}
+
+.box-image__list p{
+   width: 47%;
+   vertical-align: middle;
+   display: inline-block;
+}
+/* =================== */
+
+.footer{}
+
