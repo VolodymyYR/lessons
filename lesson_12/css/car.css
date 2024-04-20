@@ -1,0 +1,461 @@
+.car-box{
+   line-height: 0;
+   word-spacing: 0;
+   display: inline-block;
+   overflow: hidden;
+}
+
+
+
+.top-car-box{
+   position: relative;
+   right: -34%;
+}
+
+
+.roof-top-car-box{
+}
+
+.roof-top-car-box__windscreen{
+   display: inline-block;
+   overflow: hidden;
+   position: relative;
+   height: 170px;
+   width: 250px;
+   transform: skewX(-50deg) scale(1.03);
+   background-color: #0f0f0f;
+}
+
+.roof-top-car-box__windscreen::before{
+   content: "";
+   position: absolute;
+   height: 81%;
+   width: 120%;
+   background-color: #383939;
+   bottom: 6px;
+   right: -50px;
+}
+
+.roof-top-car-box__side-glass{
+   display: inline-block;
+   position: relative;
+   height: 170px;
+   width: 200px;
+   background-color: #0f0f0f;
+   transform: scale(1.035);
+}
+
+.roof-top-car-box__side-glass::before{
+   content: "";
+   position: absolute;
+   height: 80%;
+   width: 51%;
+   background-color: #383939;
+   bottom: 6px;
+   left: -102px;
+}
+
+.roof-top-car-box__side-glass::after{
+   content: "";
+   position: absolute;
+   height: 80%;
+   width: 70%;
+   background-color: #383939;
+   bottom: 6px;
+   right: 33px;
+}
+
+.roof-top-car-box__rear-window{
+   position: relative;
+   display: inline-block;
+   position: relative;
+   margin-right: -431px;
+   height: 170px;
+   width: 393px;
+   overflow: hidden;
+}
+
+.roof-top-car-box__rear-window::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -199px;
+   width: 100%;
+   height: 100%;
+   transform: skewX(67deg);
+   background-color: #0f0f0f;
+}
+
+.roof-top-car-box__rear-window::after{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: -240px;
+   width: 100%;
+   height: 85%;
+   transform: skewX(67deg);
+   background-color: #383939;
+}
+
+
+.midle-car-box{}
+
+
+
+.front-wing-midle-car-box{
+   display: inline-block;
+}
+
+.front-wing-midle-car-box__particles{
+   position: relative;
+}
+
+.front-wing-midle-car-box__particles::after{
+   content: "";
+   position: absolute;
+   border-radius: 100% 0 0 0;
+   top: 2%;
+   height: 20%;
+   width: 100%;
+   left: 4%;
+   border-top: 4px solid #000;
+}
+
+.front-wing-midle-car-box__top{
+   position: relative;
+   background-color: #0f0f0f;
+   width: 450px;
+   height: 50px;
+   border-radius: 100% 0 0 0;
+   /* right: -20px; */
+   margin-right: -20px;
+}
+
+.front-wing-midle-car-box__top::before{
+   content: "";
+   position: absolute;
+   height: 31%;
+   width: 10%;
+   border-radius: 100% 0 0 0;
+   background-color: #efcb16;
+   top: 65%;
+   left: 5%;
+}
+
+.front-wing-midle-car-box__top::after{
+   content: "";
+   position: absolute;
+   z-index: 3;
+   height: 150%;
+   width: 100%;
+   background-color: rgba(239, 203, 22, 0.4);
+   transform: skewX(79deg);
+   top: -64%;
+   left: -131%;
+}
+
+.front-wing-midle-car-box__mible{
+   position: relative;
+   border-radius: 10% 0 0 0;
+   transform: skewX(32deg) scale(1.2);
+   background-color: #0f0f0f;
+   width: 379px;
+   height: 70px;
+   margin-left: 59px;
+}
+
+.front-wing-midle-car-box__mible::after{
+   content: "";
+   position: absolute;
+   width: 105%;
+   height: 188%;
+   top: 0;
+   left: -150%;
+   background-color: rgba(239, 203, 22, 0.4);
+   transform: skewX(287deg);
+}
+
+.front-wing-midle-car-box__mible::before{
+   content: "";
+   position: absolute;
+   width: 9.5%;
+   height: 10%;
+   top: 0;
+   left: 7%;
+   background-color: #efcb16;
+   transform: skewX(32deg);
+}
+
+.front-wing-midle-car-box__sub-mible{
+   transform: skewX(12deg);
+   width: 430px;
+   height: 60px;
+   background-color: #0f0f0f;
+   border-radius: 20% 0 0 0;
+   position: relative;
+   right: -25px;
+}
+
+.front-wing-midle-car-box__bottom{
+   height: 20px;
+   width: 450px;
+   background-color: #0f0f0f;
+   border-radius: 100% 0 0 90px;
+   position: relative;
+   right: -19px;
+   top: -5px;
+}
+
+.front-wing-midle-car-box__bottom::before{
+   content: "";
+   position: absolute;
+   bottom: 30%;
+   height: 15%;
+   width: 99%;
+   left: 3px;
+   background-color: #000;
+}
+
+.front-wing-midle-car-box__wheel{
+   
+}
+
+
+.wheel-car-box{
+   position: relative;
+   right: -200px;
+   top: -128px;
+   background-color: #fff;
+   border: 15px #000 solid;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+
+.wheel-car-box::before{
+   content: "";
+   height: 140%;
+   width: 130%;
+   border-radius: 50%;
+   position: absolute;
+   border-top: 15px solid #000;
+   top: -22%;
+   left: -15%;
+}
+
+.wheel-car-box__disc{
+   overflow: hidden;
+   position: relative;
+   top: 3%;
+   left: 4%;
+   width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   border: 14px solid #000;
+   background-color: #1f2029;
+}
+
+.wheel-car-box__disc span{
+   position: absolute;
+   left: 0;
+   margin-top: 50%;
+   transform: translate(0, -50%);
+   display: inline-block;
+   width: 109%;
+   height: 5px;
+   background-color: #000;
+}
+
+.wheel-car-box__disc span:nth-child(2){
+   transform: rotate(30deg);
+}
+
+.wheel-car-box__disc span:nth-child(3){
+   transform: rotate(60deg);
+}
+
+.wheel-car-box__disc span:nth-child(4){
+   transform: rotate(90deg);
+}
+
+.wheel-car-box__disc span:nth-child(5){
+   transform: rotate(120deg);
+}
+
+.wheel-car-box__disc span:nth-child(6){
+   transform: rotate(150deg);
+}
+
+.wheel-car-box__disc span:nth-child(7){
+   transform: rotate(180deg);
+}
+
+.wheel-car-box__disc span:nth-child(8){
+   transform: rotate(210deg);
+}
+
+.wheel-car-box__disc span:nth-child(9){
+   transform: rotate(240deg);
+}
+
+.wheel-car-box__disc span:nth-child(10){
+   transform: rotate(270deg);
+}
+
+.wheel-car-box__disc span:nth-child(11){
+   transform: rotate(300deg);
+}
+
+.wheel-car-box__disc span:nth-child(12){
+   transform: rotate(330deg);
+}
+
+.midle-car-box__side-part{
+   position: relative;
+   top: -177px;
+   z-index: 5;
+   display: inline-block;
+   width: 300px;
+   height: 197px;
+   background-color: #0f0f0f;
+   transform: scale(1.03);
+}
+
+.midle-car-box__side-part::before{
+   content: "";
+   position: absolute;
+   bottom: 5%;
+   height: 92%;
+   width: 100%;
+   left: 0;
+   border-block: 4px solid #000;
+}
+
+.midle-car-box__side-part::after{
+   content: "";
+   position: absolute;
+   bottom: 5%;
+   height: 179%;
+   width: 58%;
+   right: -45%;
+   border-inline: 5px solid #000 ;
+}
+
+
+
+.rear-wing-midle-car-box{
+   display: inline-block;
+}
+
+.rear-wing-midle-car-box__particle{}
+
+.rear-wing-midle-car-box__top {
+   position: relative;
+   width: 550px;
+   height: 30px;
+   background-color: #0f0f0f;
+   transform: scale(1.1);
+}
+
+.rear-wing-midle-car-box__top::after{
+   content: "";
+   position: absolute;
+   top: 10%;
+   height: 10%;
+   width: 100%;
+   left: 0;
+   background-color: #000;
+}
+
+.rear-wing-midle-car-box__midle{
+   /* display: inline-block; */
+   border-radius: 0 30px 0 0;
+   width: 575px;
+   height: 75px;
+   background-color: #0f0f0f;
+   transform: scale(1.04);
+}
+
+.rear-wing-midle-car-box__bottom{
+   position: relative;
+   width: 575px;
+   height: 95px;
+   background-color: #0f0f0f;
+   transform: skewX(-50deg);
+   position: relative;
+   left: -57px;
+}
+
+.rear-wing-midle-car-box__bottom::before{
+   content: "";
+   position: absolute;
+   bottom: 10%;
+   height: 3%;
+   width: 100%;
+   left: 0;
+   background-color: #000;
+}
+
+.rear-wing-midle-car-box__wheel {}
+
+
+
+.bottom-car-box{}
+
+.test{
+   padding: 100px 0;
+}
+
+.test__container{
+   background-color: #1f2029;
+   border: #000 7px solid;
+   height: auto;
+   max-width: 1630px;
+   margin: 0 auto;
+   padding: 170px 0;
+}
+
+.test__items{
+}
+
+.test__item{
+   font-size: 24px;
+   display: inline-block;
+   height: 200px;
+   width: 200px;
+   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.test__item:not(:last-child){
+   margin-right: 15px;
+}
+
+.test__item:nth-child(1){
+   transform: scale(0.4);
+}
+
+.test__item:nth-child(2){
+   transform: rotate(45deg);
+}
+
+.test__item:nth-child(3){
+   transform: translateY(-130px);
+}
+
+.test__item:nth-child(4){
+   transform: translate(656px, 95px) scale(1.08);
+}
+
+.test__item:nth-child(5){
+   transform: skewX(30deg);
+}
+
+.test__item:nth-child(6){
+   transform: skewY(40deg) translateY(-26px);
+   height: 216px;
+}
+
+.test__item:nth-child(7){
+   transform: skew(50deg) translate(-29px, -62px) scale(1.1);
+   height: 153px;
+}
